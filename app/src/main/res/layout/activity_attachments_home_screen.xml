@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AttachmentsHomeScreen">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="278dp" >
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="103dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="112dp"
+            android:textColor="#767479"
+            android:text="ATTACHMENTS" />
+
+        <ImageView
+            android:id="@+id/imageView68"
+            android:layout_width="312dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="144dp"
+            app:srcCompat="@drawable/attachments_rectangle" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="143dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="152dp"
+            android:text="Medical Certificate.pdf" />
+
+        <ImageView
+            android:id="@+id/imageView70"
+            android:layout_width="22dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="146dp"
+            app:srcCompat="@drawable/attachments_icon_ellipse" />
+
+        <ImageView
+            android:id="@+id/imageView71"
+            android:layout_width="14dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="152dp"
+            app:srcCompat="@drawable/attachment_icon_white" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView69"
+            android:layout_width="312dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="192dp"
+            app:srcCompat="@drawable/attachments_rectangle" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="143dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/certificate_pdf" />
+
+        <ImageView
+            android:id="@+id/imageView72"
+            android:layout_width="22dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="194dp"
+            app:srcCompat="@drawable/attachments_icon_ellipse" />
+
+        <ImageView
+            android:id="@+id/imageView73"
+            android:layout_width="14dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/attachment_icon_white" />
+
+        <ImageView
+            android:id="@+id/imageView81"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="44dp"
+            app:srcCompat="@drawable/grey_close" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="43dp"
+    android:height="46dp"
+    android:viewportWidth="43"
+    android:viewportHeight="46">
+  <path
+      android:pathData="M6.5,4.5L36.5,4.5A5,5 0,0 1,41.5 9.5L41.5,39.5A5,5 0,0 1,36.5 44.5L6.5,44.5A5,5 0,0 1,1.5 39.5L1.5,9.5A5,5 0,0 1,6.5 4.5z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:strokeColor="#adabaf"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M31.5,1.5L31.5,7.5"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:strokeColor="#aa0535"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M12.5,1.5L12.5,7.5"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:strokeColor="#aa0535"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M1.5,17.5L41.5,17.5"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:strokeColor="#adabaf"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M10,23.5L10,23.5A2.5,2.5 0,0 1,12.5 26L12.5,26A2.5,2.5 0,0 1,10 28.5L10,28.5A2.5,2.5 0,0 1,7.5 26L7.5,26A2.5,2.5 0,0 1,10 23.5z"
+      android:fillColor="#aa0535"/>
+  <path
+      android:pathData="M10,32.5L10,32.5A2.5,2.5 0,0 1,12.5 35L12.5,35A2.5,2.5 0,0 1,10 37.5L10,37.5A2.5,2.5 0,0 1,7.5 35L7.5,35A2.5,2.5 0,0 1,10 32.5z"
+      android:fillColor="#aa0535"/>
+  <path
+      android:pathData="M21.5,23.5L21.5,23.5A2.5,2.5 0,0 1,24 26L24,26A2.5,2.5 0,0 1,21.5 28.5L21.5,28.5A2.5,2.5 0,0 1,19 26L19,26A2.5,2.5 0,0 1,21.5 23.5z"
+      android:fillColor="#aa0535"/>
+  <path
+      android:pathData="M33,23.5L33,23.5A2.5,2.5 0,0 1,35.5 26L35.5,26A2.5,2.5 0,0 1,33 28.5L33,28.5A2.5,2.5 0,0 1,30.5 26L30.5,26A2.5,2.5 0,0 1,33 23.5z"
+      android:fillColor="#aa0535"/>
+</vector>

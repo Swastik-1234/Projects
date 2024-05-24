@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="22dp"
+                android:height="22dp" />
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="#AA0535" />
+        </shape>
+    </item>
+    <item
+        android:width="12.553dp"
+        android:height="9.631dp"
+        android:gravity="center">
+        <vector
+            android:src="@drawable/tick"/>
+    </item>
+</layer-list>

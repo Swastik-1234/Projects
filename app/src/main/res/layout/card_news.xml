@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="660dp"
+    android:layout_gravity="center"
+    tools:layout_editor_absoluteY="92dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carditem1"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="316dp"
+            android:layout_height="160dp"
+            android:background="@drawable/snippet_rectangle"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/bulb" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="22dp"
+            android:text="Knowledge Snippet"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="38dp"
+            android:text="Team Admin"
+            android:textColor="#A2C6C4" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/TextViewStyle"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/constructive_total_loss"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="233dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="90dp"
+            style="@style/RegularCustomTextStyle"
+            android:textSize="8dp"
+            android:text="A loss that occurs when the cost to repair damaged property plus its remaining salvage value equals or exceeds the property’s preload value"
+            android:textColor="@color/white"
+           />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="29dp"
+            app:srcCompat="@drawable/cross" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="230dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/ai_image" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="246dp"
+            app:srcCompat="@drawable/rounded_rectangle" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="36dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="255dp"
+            app:srcCompat="@drawable/qic_icon" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="89dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="255dp"
+            android:text="Latest News" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="90dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="275dp"
+            android:text="Team Admin"
+            android:textColor="#ADABAF" />
+
+        <TextView
+            android:id="@+id/textView22"
+            style="@style/TextViewStyle"
+            android:layout_width="267dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="300dp"
+            android:text="QIC issues $300mn Tier 2 capital notes"
+            android:textColor="#323133"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="296dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="320dp"
+            android:text="Despite the prevailing financial market turbulence across the globe, Qatar Insurance Company announces successful issuance of US$300 million"
+            android:textSize="13dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

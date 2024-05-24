@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#9E0406</color>
+    <color name="grey">#808080</color>
+    <color name="rectangle_bar_color">#A90635</color>
+    <color name="color_step1">#A90635</color>
+    <color name="color_step2">#A90635</color>
+    <color name="color_step3">#A90635</color>
+    <color name="color_step4">#A90635</color>
+    <color name="color_step5">#A90635</color>
+    <color name="color_step6">#A90635</color>
+    <color name="transparent_color">#F4F4F4</color>
+    <color name="line">#F1F1F2</color>
+
+</resources>

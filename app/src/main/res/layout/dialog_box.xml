@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="223dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="143dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/approve_remarks" />
+
+        <ImageView
+            android:id="@+id/imageView69"
+            android:layout_width="17.5dp"
+            android:layout_height="17.5dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/grey_cross" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="59dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="48dp"
+            android:text="Remarks" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="288dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="154dp"
+            android:background="@drawable/submit_background"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="#FFFFFF" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

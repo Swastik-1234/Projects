@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/leave_request_container" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="300dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="341dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onContainerClick"
+
+        app:srcCompat="@drawable/individual_request_container" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="29dp"
+
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/small_profile_background"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24"
+        app:srcCompat="@drawable/smallprofile" />
+
+        <TextView
+            android:id="@+id/textView29"
+            style="@style/MediumCustomTextStyle"
+            android:layout_width="64dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="124dp"
+            android:background="@drawable/leave_icon_background"
+            android:text="Casual Leave"
+            android:textColor="#0DC3F8"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+        <TextView
+        android:id="@+id/textView30"
+        style="@style/MediumCustomTextStyle"
+
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="96dp"
+        android:text="Nico Roseberg"
+        android:textColor="#323133"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="71dp"
+        android:text="Team Lead, IT Develpoment"
+        android:textColor="#767479"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView32"
+        style="@style/TextViewStyle"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="87dp"
+
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="42dp"
+        android:text="@string/_2_days"
+        android:textColor="#323133"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="166dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="42dp"
+        android:text="30 Dec, 2019 - 1 Jun, 2020"
+        style="@style/RegularCustomTextStyle"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="126dp"
+        android:text="24 May 2020, 12:00pm"
+        android:textColor="#ADABAF"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+<!--    <View-->
+<!--        android:layout_width="296dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="48dp"-->
+<!--        android:layout_marginTop="304dp"-->
+<!--        android:background="@color/line" />-->
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24"
+        app:srcCompat="@drawable/tick" />
+
+    <TextView
+        android:id="@+id/textView37"
+        style="@style/TextViewStyle"
+        android:layout_width="61dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="10dp"
+        android:text="Approved"
+        android:textColor="#14BF70"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="300dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:srcCompat="@drawable/individual_request_container" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="62dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:srcCompat="@drawable/smallprofile" />
+
+    <TextView
+        android:id="@+id/textView2ndC1"
+        style="@style/MediumCustomTextStyle"
+        android:layout_width="64dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/sick_leave_bg"
+        android:text="Sick Leave"
+        android:textColor="#F8B00D"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView2ndC2"
+        style="@style/MediumCustomTextStyle"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="87dp"
+        android:text="Max Verstappen"
+        android:textColor="#323133"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView2ndC3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="62dp"
+        android:text="@string/vice_president_of_sales_it_mis"
+        android:textColor="#767479"
+        android:textSize="13dp"
+        style="@style/RegularCustomTextStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView2ndC4"
+        style="@style/CustomTextStyle"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/_1_day"
+        android:textColor="#323133"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView2ndC5"
+        android:layout_width="166dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="34dp"
+        style="@style/RegularCustomTextStyle"
+        android:textSize="13dp"
+        android:text="@string/_12_may"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/textView2ndC6"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="119dp"
+        android:text="@string/_24_july_2020_1_00pm"
+        android:textColor="#ADABAF"
+        android:textSize="10dp"
+        style="@style/MediumCustomTextStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:srcCompat="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/textView37C2"
+        android:layout_width="61dp"
+        style="@style/TextViewStyle"
+        android:textSize="13dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="10dp"
+        android:text="Rejected"
+        android:textColor="#D33E1B"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+
+    <!--    <FrameLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonleave"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginStart="46dp"-->
+<!--            android:layout_marginTop="600dp"-->
+<!--            android:background="@drawable/leaverequest_button_bg"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="Leave Requests" />-->
+
+
+    <!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:layout_marginTop="540dp"-->
+<!--            android:layout_marginEnd="152dp"-->
+<!--            android:layout_marginBottom="33dp"-->
+<!--            android:background="@drawable/leaverequest_button_bg"-->
+<!--            android:elevation="4dp"-->
+<!--            android:text="Leave Request"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/imageView23"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/imageView23"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/imageView23"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/imageView23" />-->
+
+
+    <TextView
+        android:id="@+id/textView38"
+        style="@style/TextViewStyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="18dp"
+        android:text="All Request 02"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end"-->
+
+<!--        android:layout_marginTop="432dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:background="@drawable/history_button_bg"-->
+<!--        android:backgroundTint="#E0E0E0"-->
+<!--        android:elevation="8dp"-->
+<!--        android:text="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;                    History"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView23"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView23"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView23" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="431dp"-->
+<!--        android:layout_marginEnd="144dp"-->
+<!--        android:elevation="4dp"-->
+<!--        android:layout_marginBottom="33dp"-->
+<!--        android:background="@drawable/leaverequest_button_bg"-->
+<!--        android:text="Leave Request"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView23"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/button3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView23"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+
+    <!--    </FrameLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

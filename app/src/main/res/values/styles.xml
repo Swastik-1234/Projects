@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#AA0535</item> <!-- Button color -->
+        <item name="android:layout_width">wrap_content</item> <!-- Width -->
+        <item name="android:layout_height">wrap_content</item> <!-- Height -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Text color -->
+        <item name="android:padding">12dp</item> <!-- Padding -->
+        <item name="android:layout_margin">8dp</item> <!-- Margin -->
+        <item name="android:radius">10dp</item> <!-- Corner radius -->
+
+    </style>
+    <style name="TextViewStyle">
+        <item name="android:fontFamily">@font/inter_semibold</item> <!-- Assuming you have the Inter Semi-Bold font in your resources -->
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="CustomTextStyle">
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="MediumCustomTextStyle">
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+    <style name="RegularCustomTextStyle">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+
+
+
+</resources>

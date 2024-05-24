@@ -1,0 +1,365 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemoApprovalLeaveRequestFragment">
+
+    <!-- Your existing views from ApprovalLeaveRequest layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        style="@style/TextViewStyle"
+        android:layout_width="78dp"
+        android:layout_height="28dp"
+
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/approval"
+        android:textColor="#323133"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="168dp"
+        app:srcCompat="@drawable/leave_request_container"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/individual_request_container" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="25dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/small_profile_background"
+        app:srcCompat="@drawable/smallprofile" />
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/TextViewStyle"
+        android:layout_width="64dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/leave_icon_background"
+        android:text="Casual Leave"
+        android:textColor="#0DC3F8"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/MediumCustomTextStyle"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="205dp"
+        android:text="Nico Roseberg"
+
+        android:textColor="#323133"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="225dp"
+        android:text="Team Lead, IT Develpoment"
+        android:textColor="#767479"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="248dp"
+        android:textColor="#323133"
+        android:textSize="13dp"
+        style="@style/TextViewStyle"
+
+        android:text="@string/_2_days" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="166dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="248dp"
+        android:text="30 Dec, 2019 - 1 Jun, 2020" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="190dp"
+        android:text="24 May 2020, 12:00pm"
+        android:textColor="#ADABAF"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="304dp"
+        android:background="@color/line" />
+
+
+    <ImageView
+        android:id="@+id/imageView2ndC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/individual_request_container"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="545dp" />
+    <ImageView
+        android:id="@+id/imageView2ndC2"
+        android:layout_width="25dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/small_profile_background"
+        app:srcCompat="@drawable/smallprofile" />
+
+    <TextView
+        android:id="@+id/textView2ndC1"
+        style="@style/TextViewStyle"
+        android:layout_width="64dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/sick_leave_bg"
+        android:text="Sick Leave"
+        android:textColor="#F8B00D"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView2ndC2"
+        style="@style/MediumCustomTextStyle"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="335dp"
+        android:text="Max Verstappen"
+
+        android:textColor="#323133"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2ndC3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="355dp"
+        android:text="@string/vice_president_of_sales_it_mis"
+        android:textColor="#767479"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/textView2ndC4"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="92dp"
+        style="@style/TextViewStyle"
+        android:textSize="13dp"
+        android:layout_marginTop="378dp"
+        android:text="@string/_1_day"
+        android:textColor="#323133" />
+
+    <TextView
+        android:id="@+id/textView2ndC5"
+        android:layout_width="166dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="378dp"
+        android:text="@string/_12_may" />
+
+    <TextView
+        android:id="@+id/textView2ndC6"
+        android:layout_width="110dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#ADABAF"
+        android:text="@string/_24_july_2020_1_00pm"
+        android:textSize="10dp" />
+
+    <View
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="433dp"
+
+        android:background="@color/line" />
+
+
+    <ImageView
+        android:id="@+id/imageView3rdC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="438dp"
+        app:srcCompat="@drawable/individual_request_container"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3rdC2"
+        android:layout_width="25dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/small_profile_background"
+        app:srcCompat="@drawable/smallprofile" />
+
+    <TextView
+        android:id="@+id/textView3rdC1"
+        style="@style/TextViewStyle"
+        android:layout_width="64dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/sick_leave_bg"
+        android:text="@string/loss_of_pay"
+        android:textColor="#F80D1F"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView3rdC2"
+        style="@style/MediumCustomTextStyle"
+        android:layout_width="120dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="472dp"
+        android:text="Lewis Hamilton "
+
+        android:textColor="#323133"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3rdC3"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="490dp"
+        android:text="Team Lead, IT Develpoment"
+        android:textColor="#767479"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/textView3rdC4"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="513dp"
+        style="@style/TextViewStyle"
+        android:textSize="13dp"
+        android:text="@string/_2_days1"
+        android:textColor="#323133" />
+
+    <TextView
+        android:id="@+id/textView3rdC5"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="513dp"
+        android:text="@string/_24_may_26_may_2020may" />
+
+    <TextView
+        android:id="@+id/textView3rdC7"
+        android:layout_width="120dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="445dp"
+        android:text="@string/_20_may_2020_10_10am"
+        android:textColor="#ADABAF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        style="@style/TextViewStyle"
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="104dp"
+        android:text="Leave Request 04"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/leaverequest_button_bg"
+        android:text="Leave Requests" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonleave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/leaverequest_button_bg"
+            android:elevation="4dp"
+            android:text="Leave Requests" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="600dp"
+
+            android:background="@drawable/history_button_bg"
+            android:backgroundTint="#E0E0E0"
+            android:elevation="8dp"
+            android:text="&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;                    History"
+            android:zAdjustment="bottom" />
+
+        <ImageView
+            android:id="@+id/imageView82"
+            android:layout_width="10dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/back_arrow" />
+    </FrameLayout>
+
+
+
+</FrameLayout>
