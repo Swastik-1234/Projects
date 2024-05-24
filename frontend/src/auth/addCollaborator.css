@@ -1,0 +1,37 @@
+/* AddCollaborator.css */
+
+/* AddCollaborator.css */
+
+.form-container {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px; /* Add padding to create space around the form */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 8px; /* Add border radius for rounded corners */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

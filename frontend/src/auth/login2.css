@@ -1,0 +1,17 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form-container {
+    width: 400px;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .login-container .login-image {
+    width: 100px;
+     /* Adjust the width of the image as needed */
+     height: 700px;
+  }
+  
