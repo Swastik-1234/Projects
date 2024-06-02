@@ -17,6 +17,7 @@ function ProductListing() {
 
   useEffect(() => {
     fetchProducts();
+    
   }, [page, sortBy, minPrice, maxPrice]); 
 
   const fetchProducts = () => {
@@ -128,74 +129,4 @@ function ProductListing() {
 
 export default ProductListing;
 
-// ProductListing.js
-// import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
-// import Swal from 'sweetalert2';
-// import './productListing.css';
 
-// function ProductListing() {
-//   const [products, setProducts] = useState([]);
-//   const [loading, setLoading] = useState(true);
-
-//   useEffect(() => {
-//     fetchProducts();
-//   }, []); // Fetch products on component mount
-
-//   const fetchProducts = () => {
-//     setLoading(true);
-//     axios.get('http://localhost:3001/products')
-//       .then(response => {
-//         setProducts(response.data);
-//         setLoading(false);
-//       })
-//       .catch(error => {
-//         console.error('Error fetching products:', error);
-//         setLoading(false);
-//       });
-//   };
-
-//   const handleProductClick = (product) => {
-//     // Display additional information about the clicked product
-//     Swal.fire({
-//       title: product.name,
-//       html: `
-//         <p><strong>Model:</strong> ${product.model}</p>
-//         <p><strong>Availability:</strong> ${product.availability}</p>
-//         <p><strong>Rating:</strong> ${product.rating}</p>
-//         <p><strong>Type:</strong> ${product.type}</p>
-//         <p><strong>Price:</strong> ${product.price}</p>
-//       `,
-//       showCancelButton: false,
-//       showConfirmButton: false,
-//     });
-//   };
-
-//   return (
-//     <div className="product-listing-container">
-//       <h2 className="product-listing-header">Explore Products</h2>
-
-//       {loading ? (
-//         <p>Loading...</p>
-//       ) : (
-//         <ul className="product-listing-products">
-//           {products.map(product => (
-//             <li key={product.id} onClick={() => handleProductClick(product)}>
-//               <img src={`https://via.placeholder.com/150?text=${product.name}`} alt={product.name} />
-//               <div>
-//                 <h3>{product.name}</h3>
-//                 <p>Model: {product.model}</p>
-//                 <p>Availability: {product.availability}</p>
-//                 <p>Rating: {product.rating}</p>
-//                 <p>Type: {product.type}</p>
-//                 <p>Price: {product.price}</p>
-//               </div>
-//             </li>
-//           ))}
-//         </ul>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default ProductListing;
